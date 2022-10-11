@@ -1,0 +1,17 @@
+{
+  "name": "monorepository-context-bug",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "modules/**",
+    "apps/**"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel --continue"
+  },
+  "devDependencies": {
+    "turbo": "^1.1.2"
+  }
+}
